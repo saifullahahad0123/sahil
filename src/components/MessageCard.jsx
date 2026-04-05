@@ -13,19 +13,22 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `[ Hii DELULUUU___],
 
-Your personalized birthday message goes here.
+Yrrrrr maine bhot socha ki tum pr kuch khaas likhu  
+Kch din likhu, kch raat likhu, apne sare bichar likhu 
+Har lamha har ek pal tumhare saath likhu 
+Pr tum khud mein itni khaas ho 
+main confuse hogya 
+Kis chiz ki taarif kru aur kiski nhiii
+Aur haa
+agr krni ho toh main apni kismat ki taarif krunga ki tumse mil payaaa 🫂
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
+Wishing u a very happy returns of the Dayyyyy
 
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+Happyyyyyyyyyyyy Birthdayyyyyyyyy! 🎉
 
-Happy Birthday! 🎉
-
-— [Your Name]`;
+— [from urs soluluuuuu]`;
 
   // Handle page transitions
   useEffect(() => {

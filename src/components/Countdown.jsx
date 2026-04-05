@@ -20,7 +20,9 @@ function Countdown({ onBirthdayReached, birthdayReached }) {
     // ═══════════════════════════════════════════════════════════════
 
     //const targetDate = new Date("2026-04-06-18T00:00:00");
-    const targetDate = new Date("2026-04-06T18:00:00"); 
+    // const targetDate = new Date("2026-04-06-T18:00:00"); 
+    const targetDate = new Date();
+targetDate.setHours(12, 0, 0, 0);
 //const targetDate = new Date(2026, 4, 6, 18, 0, 0);
     // 📝 HOW TO USE:
     // Replace the date above with your actual birthday
